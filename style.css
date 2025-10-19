@@ -48,6 +48,11 @@ button {
     align-self: center;
 }
 
+.hero-container{
+    max-width: 600px;
+    flex: 0 1 auto;
+}
+
 .card-container{
     display: flex;
     justify-content: center;
@@ -130,14 +135,16 @@ button {
 
 .section-action{ 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 50vw;
+    max-width: 700px;
     padding: 35px 100px;
     margin: 80px 150px;
     background-color: #796B93;
     border-radius: 1rem;
     align-self: center;
+    flex: 0 1 auto;
+    gap: 40px;
 
 }
 
