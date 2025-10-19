@@ -33,11 +33,12 @@ button {
 }
 
 .section-hero{
-    padding: 70px 150px;
+    padding: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .section-info{
