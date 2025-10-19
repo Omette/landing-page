@@ -4,6 +4,7 @@ body {
     justify-content: space-between;
     padding: 0;
     margin: 0;
+    align-items: stretch;
 }
 
 a {
@@ -148,4 +149,11 @@ button {
 .action-button {
     border: solid;
     border-width: 2px;
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+    align-self: stretch;
+    padding: 30px;
 }
